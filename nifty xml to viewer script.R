@@ -1,4 +1,4 @@
-#recursive apply in XML
+
 
 library(XML)
 library(pipeR)
@@ -283,3 +283,4 @@ svg.selectAll('.yieldcurve')
 "    ) %>>% HTML
   ) ) %>>%
   html_print
+
